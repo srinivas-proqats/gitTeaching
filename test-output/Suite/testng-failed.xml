@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.OrangeHRM.framework.EnterContactDetails">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="entercd"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.EnterContactDetails -->
+      <class name="com.crm.OrangeHRM.framework.EnterEmergencyContacts">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="enterEC"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.EnterEmergencyContacts -->
+      <class name="com.crm.OrangeHRM.framework.AdminFinal">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="entercd"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.AdminFinal -->
+      <class name="com.crm.OrangeHRM.framework.RecruitementD">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="enterRecruitementD"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.RecruitementD -->
+      <class name="com.crm.OrangeHRM.framework.EnterPersonalDetails">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="enterpd"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.EnterPersonalDetails -->
+      <class name="com.crm.OrangeHRM.framework.Maintenence">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="maintenence"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.Maintenence -->
+      <class name="com.crm.OrangeHRM.framework.PerformanceFinal">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="enterpd"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.PerformanceFinal -->
+      <class name="com.crm.OrangeHRM.framework.PerformFinal">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="enterpfm2"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.PerformFinal -->
+      <class name="com.crm.OrangeHRM.framework.BuzzFinal">
+        <methods>
+          <include name="opneBrowser"/>
+          <include name="logintoAPP"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="enterpd"/>
+        </methods>
+      </class> <!-- com.crm.OrangeHRM.framework.BuzzFinal -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
